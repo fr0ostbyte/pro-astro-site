@@ -1,0 +1,1085 @@
+{
+  "version": 1,
+  "topicId": "pair",
+  "title": "Аспекты двух натальных карт",
+  "subtitle": "Планеты первой карты — золотые, второй — фиолетовые",
+  "sourceLabel": "Фрагмент расчёта Astrollo",
+  "synthetic": true,
+  "inputsLabel": "17.08.1994 и 03.11.1992 · 14:30 и 09:20, Москва",
+  "visual": {
+    "src": "/assets/product-demo/pair.svg",
+    "alt": "Аспекты двух натальных карт",
+    "width": 640,
+    "height": 360
+  },
+  "facts": [
+    {
+      "label": "Солнце / Луна",
+      "value": "Оппозиция · орбис 3.62°"
+    },
+    {
+      "label": "Луна / Солнце",
+      "value": "Секстиль · орбис 5.18°"
+    },
+    {
+      "label": "Меркурий / Меркурий",
+      "value": "Квадрат · орбис 5.60°"
+    }
+  ],
+  "editorial": null,
+  "accessNote": "Базовый расчёт: 3 в месяц бесплатно. Полная ИИ-расшифровка — по подписке.",
+  "provenance": {
+    "asOf": "2026-10-03",
+    "inputs": [
+      {
+        "birthDate": "1994-08-17",
+        "birthTime": "14:30",
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "timezone": "Europe/Moscow",
+        "city": "Москва"
+      },
+      {
+        "birthDate": "1992-11-03",
+        "birthTime": "09:20",
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "timezone": "Europe/Moscow",
+        "city": "Москва"
+      }
+    ],
+    "sources": {
+      "services/calculation-engine/app/services/astro_constants.py": "16dc020c66d454b22e9c54357719b8766f032592132b317b9c4fb0f277b205dd",
+      "services/calculation-engine/app/models/natal_chart.py": "dcb0e530cc434d40749292d6ba471d23df98ac4a67446bfa2dd197db5c22c2f3",
+      "services/calculation-engine/app/models/synastry.py": "ef526789e7193992982e7e3df28464523eee0388bbc71fd532f2ead511a4f014",
+      "services/calculation-engine/app/models/transits.py": "36af860862776fb3fd1b324067bdc3544d2df9f3aedafcacbe18c4872003790c",
+      "services/calculation-engine/app/services/swiss_ephem.py": "e1b28c584d3f1d1f3ec45dfb3b064cc022092921e6a5f9245e19a932bdc26d08",
+      "services/calculation-engine/app/services/synastry_service.py": "47b3464024366312a1edea105ef123dfb9a99a811373fe9c1117bf23f81ac74d",
+      "services/calculation-engine/app/services/transit_service.py": "260a0841dd7d0cff23058eaf6fc54f713485497de05a05d980550ec5eb8b51d5"
+    },
+    "ephemeris": {
+      "version": "2.10.03",
+      "mode": "SWIEPH",
+      "files": {
+        "sepl_18.se1": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66",
+        "semo_18.se1": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+      }
+    },
+    "externalCalls": true,
+    "modelGenerated": true,
+    "view": "Static fragment, not a screenshot of a personal account",
+    "modelProof": {
+      "source": "astrolloai.ru cabinet, /app/compatibility (Master tier, fictional profile)",
+      "capturedAt": "2026-10-04T20:15:00Z",
+      "generatedAtApproximate": true,
+      "sections": 6,
+      "contentHash": "4dad893152e9f14280dbc125fceb22ebe770115d4fd132d8f28c0e620c1d56f9",
+      "previousGeneratedSample": "audit-data/_ops/partner_sites_local16_claude_20261004/pair-modelSample-local16-generated.json"
+    },
+    "modelSources": {
+      "scripts/partner-sites/product-demo/model-samples-natal-pair.py": "fa1d59fd306798f5212dc8de7e1e7dc77a9545ce5938e2e23a9f86600a5bf46b",
+      "services/ai-service/app/services/config_manager.py": "9491511f70e8d5f4ce57a801590163460ded4fae47187e3294390deab454e301",
+      "services/ai-service/app/services/chart_geometry.py": "82ddabc61eaf4418466792f9a058bf5c86b52b617cb1cb1f26ceb6ade0a1785a",
+      "services/ai-service/app/services/chart_precision.py": "2c0d7bc059805e84d7a3cf45e5b54c01891a04575f1ec7ec22123ddacf680272",
+      "services/ai-service/app/services/natal_facts.py": "fdb1db5ac1770cd573edbd6d4356d8502314a6d37ff048815e432bc6631a8401",
+      "services/ai-service/app/services/interpretation_service.py": "7daaf323144ad750adfa67e0f945ec880eebbb1978a557234faffca089cf9cdb",
+      "services/compatibility-service/app/Services/BreakdownCalculator.php": "22202d310740707817dd0c2d05ec0087e60134caf95e924318b3257dad84451f",
+      "services/ai-service/app/clients/openrouter.py": "e8d5210075ead007d1027e06ac993b756d10053018d36d777e4826527700ef1a"
+    },
+    "modelScope": [
+      "Native interpretation_prompts[\"full\"] + natal_facts on the synthetic natal chart (exact time)",
+      "Native build_compatibility_prompt with BreakdownCalculator scores; house overlays from the saved cusps",
+      "No accounts, DB, workers, quota or checkout"
+    ],
+    "configuredModelSource": "repository DEFAULT_CONFIG; live production/admin override not inspected"
+  },
+  "calculation": {
+    "first": {
+      "houses": [
+        {
+          "number": 1,
+          "sign": "Scorpio",
+          "degree": 16.75511551726879
+        },
+        {
+          "number": 2,
+          "sign": "Sagittarius",
+          "degree": 16.501855876361333
+        },
+        {
+          "number": 3,
+          "sign": "Capricorn",
+          "degree": 27.40431555381889
+        },
+        {
+          "number": 4,
+          "sign": "Pisces",
+          "degree": 9.102541040790925
+        },
+        {
+          "number": 5,
+          "sign": "Aries",
+          "degree": 9.604623134805934
+        },
+        {
+          "number": 6,
+          "sign": "Taurus",
+          "degree": 0.9168407762791162
+        },
+        {
+          "number": 7,
+          "sign": "Taurus",
+          "degree": 16.75511551726879
+        },
+        {
+          "number": 8,
+          "sign": "Gemini",
+          "degree": 16.501855876361333
+        },
+        {
+          "number": 9,
+          "sign": "Cancer",
+          "degree": 27.40431555381889
+        },
+        {
+          "number": 10,
+          "sign": "Virgo",
+          "degree": 9.102541040790925
+        },
+        {
+          "number": 11,
+          "sign": "Libra",
+          "degree": 9.604623134805962
+        },
+        {
+          "number": 12,
+          "sign": "Scorpio",
+          "degree": 0.9168407762791162
+        }
+      ],
+      "cusps": [
+        226.7551155172688,
+        256.50185587636133,
+        297.4043155538189,
+        339.1025410407909,
+        9.604623134805934,
+        30.916840776279116,
+        46.75511551726879,
+        76.50185587636133,
+        117.40431555381889,
+        159.10254104079092,
+        189.60462313480596,
+        210.91684077627912
+      ],
+      "planets": [
+        {
+          "name": "Sun",
+          "sign": "Leo",
+          "degree": 24.297229873271334,
+          "house": 9,
+          "retrograde": false
+        },
+        {
+          "name": "Moon",
+          "sign": "Capricorn",
+          "degree": 5.905876182709392,
+          "house": 2,
+          "retrograde": false
+        },
+        {
+          "name": "Mercury",
+          "sign": "Leo",
+          "degree": 28.846764496653407,
+          "house": 9,
+          "retrograde": false
+        },
+        {
+          "name": "Venus",
+          "sign": "Libra",
+          "degree": 10.140706484337812,
+          "house": 11,
+          "retrograde": false
+        },
+        {
+          "name": "Mars",
+          "sign": "Cancer",
+          "degree": 0.41577902060501515,
+          "house": 8,
+          "retrograde": false
+        },
+        {
+          "name": "Jupiter",
+          "sign": "Scorpio",
+          "degree": 7.789548110910175,
+          "house": 12,
+          "retrograde": false
+        },
+        {
+          "name": "Saturn",
+          "sign": "Pisces",
+          "degree": 10.150134740403473,
+          "house": 4,
+          "retrograde": true
+        },
+        {
+          "name": "Uranus",
+          "sign": "Capricorn",
+          "degree": 23.18920221714984,
+          "house": 2,
+          "retrograde": true
+        },
+        {
+          "name": "Neptune",
+          "sign": "Capricorn",
+          "degree": 21.112461739278388,
+          "house": 2,
+          "retrograde": true
+        },
+        {
+          "name": "Pluto",
+          "sign": "Scorpio",
+          "degree": 25.31645514550999,
+          "house": 1,
+          "retrograde": false
+        }
+      ],
+      "aspects": [
+        {
+          "planet1": "Sun",
+          "planet2": "Mercury",
+          "type": "conjunction",
+          "orb": 4.5495,
+          "is_applying": false
+        },
+        {
+          "planet1": "Sun",
+          "planet2": "Pluto",
+          "type": "square",
+          "orb": 1.0192,
+          "is_applying": true
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Mercury",
+          "type": "trine",
+          "orb": 7.0591,
+          "is_applying": false
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Venus",
+          "type": "square",
+          "orb": 4.2348,
+          "is_applying": false
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Mars",
+          "type": "opposition",
+          "orb": 5.4901,
+          "is_applying": true
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Jupiter",
+          "type": "sextile",
+          "orb": 1.8837,
+          "is_applying": false
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Saturn",
+          "type": "sextile",
+          "orb": 4.2443,
+          "is_applying": true
+        },
+        {
+          "planet1": "Mercury",
+          "planet2": "Mars",
+          "type": "sextile",
+          "orb": 1.569,
+          "is_applying": false
+        },
+        {
+          "planet1": "Mercury",
+          "planet2": "Pluto",
+          "type": "square",
+          "orb": 3.5303,
+          "is_applying": true
+        },
+        {
+          "planet1": "Mars",
+          "planet2": "Jupiter",
+          "type": "trine",
+          "orb": 7.3738,
+          "is_applying": true
+        },
+        {
+          "planet1": "Jupiter",
+          "planet2": "Saturn",
+          "type": "trine",
+          "orb": 2.3606,
+          "is_applying": true
+        },
+        {
+          "planet1": "Uranus",
+          "planet2": "Neptune",
+          "type": "conjunction",
+          "orb": 2.0767,
+          "is_applying": true
+        },
+        {
+          "planet1": "Uranus",
+          "planet2": "Pluto",
+          "type": "sextile",
+          "orb": 2.1273,
+          "is_applying": true
+        },
+        {
+          "planet1": "Neptune",
+          "planet2": "Pluto",
+          "type": "sextile",
+          "orb": 4.204,
+          "is_applying": true
+        }
+      ],
+      "julianDayUT": 2449581.9375,
+      "scope": "10 major planets and 12 houses; additional bodies and mathematical points are outside this preview",
+      "houseSystem": "Placidus"
+    },
+    "second": {
+      "houses": [
+        {
+          "number": 1,
+          "sign": "Scorpio",
+          "degree": 26.56005406929694
+        },
+        {
+          "number": 2,
+          "sign": "Sagittarius",
+          "degree": 29.092785765870246
+        },
+        {
+          "number": 3,
+          "sign": "Aquarius",
+          "degree": 14.291643295259519
+        },
+        {
+          "number": 4,
+          "sign": "Pisces",
+          "degree": 24.968025088178706
+        },
+        {
+          "number": 5,
+          "sign": "Aries",
+          "degree": 22.68927370107906
+        },
+        {
+          "number": 6,
+          "sign": "Taurus",
+          "degree": 11.9007644792581
+        },
+        {
+          "number": 7,
+          "sign": "Taurus",
+          "degree": 26.56005406929694
+        },
+        {
+          "number": 8,
+          "sign": "Gemini",
+          "degree": 29.092785765870246
+        },
+        {
+          "number": 9,
+          "sign": "Leo",
+          "degree": 14.291643295259519
+        },
+        {
+          "number": 10,
+          "sign": "Virgo",
+          "degree": 24.968025088178678
+        },
+        {
+          "number": 11,
+          "sign": "Libra",
+          "degree": 22.68927370107903
+        },
+        {
+          "number": 12,
+          "sign": "Scorpio",
+          "degree": 11.900764479258129
+        }
+      ],
+      "cusps": [
+        236.56005406929694,
+        269.09278576587025,
+        314.2916432952595,
+        354.9680250881787,
+        22.68927370107906,
+        41.9007644792581,
+        56.56005406929694,
+        89.09278576587025,
+        134.29164329525952,
+        174.96802508817868,
+        202.68927370107903,
+        221.90076447925813
+      ],
+      "planets": [
+        {
+          "name": "Sun",
+          "sign": "Scorpio",
+          "degree": 11.089376046350424,
+          "house": 11,
+          "retrograde": false
+        },
+        {
+          "name": "Moon",
+          "sign": "Aquarius",
+          "degree": 20.675390057978802,
+          "house": 3,
+          "retrograde": false
+        },
+        {
+          "name": "Mercury",
+          "sign": "Sagittarius",
+          "degree": 4.450832627122082,
+          "house": 1,
+          "retrograde": false
+        },
+        {
+          "name": "Venus",
+          "sign": "Sagittarius",
+          "degree": 17.615474571866798,
+          "house": 1,
+          "retrograde": false
+        },
+        {
+          "name": "Mars",
+          "sign": "Cancer",
+          "degree": 23.612509241188334,
+          "house": 8,
+          "retrograde": false
+        },
+        {
+          "name": "Jupiter",
+          "sign": "Libra",
+          "degree": 4.8277172633956695,
+          "house": 10,
+          "retrograde": false
+        },
+        {
+          "name": "Saturn",
+          "sign": "Aquarius",
+          "degree": 12.09995161089438,
+          "house": 2,
+          "retrograde": false
+        },
+        {
+          "name": "Uranus",
+          "sign": "Capricorn",
+          "degree": 14.758342815979177,
+          "house": 2,
+          "retrograde": false
+        },
+        {
+          "name": "Neptune",
+          "sign": "Capricorn",
+          "degree": 16.54763517611042,
+          "house": 2,
+          "retrograde": false
+        },
+        {
+          "name": "Pluto",
+          "sign": "Scorpio",
+          "degree": 22.39812864926259,
+          "house": 12,
+          "retrograde": false
+        }
+      ],
+      "aspects": [
+        {
+          "planet1": "Sun",
+          "planet2": "Saturn",
+          "type": "square",
+          "orb": 1.0106,
+          "is_applying": true
+        },
+        {
+          "planet1": "Sun",
+          "planet2": "Uranus",
+          "type": "sextile",
+          "orb": 3.669,
+          "is_applying": true
+        },
+        {
+          "planet1": "Sun",
+          "planet2": "Neptune",
+          "type": "sextile",
+          "orb": 5.4583,
+          "is_applying": true
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Venus",
+          "type": "sextile",
+          "orb": 3.0599,
+          "is_applying": false
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Pluto",
+          "type": "square",
+          "orb": 1.7227,
+          "is_applying": false
+        },
+        {
+          "planet1": "Mercury",
+          "planet2": "Jupiter",
+          "type": "sextile",
+          "orb": 0.3769,
+          "is_applying": false
+        },
+        {
+          "planet1": "Venus",
+          "planet2": "Saturn",
+          "type": "sextile",
+          "orb": 5.5155,
+          "is_applying": true
+        },
+        {
+          "planet1": "Mars",
+          "planet2": "Neptune",
+          "type": "opposition",
+          "orb": 7.0649,
+          "is_applying": true
+        },
+        {
+          "planet1": "Mars",
+          "planet2": "Pluto",
+          "type": "trine",
+          "orb": 1.2144,
+          "is_applying": true
+        },
+        {
+          "planet1": "Jupiter",
+          "planet2": "Saturn",
+          "type": "trine",
+          "orb": 7.2722,
+          "is_applying": true
+        },
+        {
+          "planet1": "Uranus",
+          "planet2": "Neptune",
+          "type": "conjunction",
+          "orb": 1.7893,
+          "is_applying": true
+        },
+        {
+          "planet1": "Neptune",
+          "planet2": "Pluto",
+          "type": "sextile",
+          "orb": 5.8505,
+          "is_applying": true
+        }
+      ],
+      "julianDayUT": 2448929.763888889,
+      "scope": "10 major planets and 12 houses; additional bodies and mathematical points are outside this preview",
+      "houseSystem": "Placidus"
+    },
+    "crossAspects": [
+      {
+        "person1_planet": "Sun",
+        "person2_planet": "Moon",
+        "aspect": "opposition",
+        "orb": 3.6218
+      },
+      {
+        "person1_planet": "Sun",
+        "person2_planet": "Venus",
+        "aspect": "trine",
+        "orb": 6.6818
+      },
+      {
+        "person1_planet": "Sun",
+        "person2_planet": "Pluto",
+        "aspect": "square",
+        "orb": 1.8991
+      },
+      {
+        "person1_planet": "Moon",
+        "person2_planet": "Sun",
+        "aspect": "sextile",
+        "orb": 5.1835
+      },
+      {
+        "person1_planet": "Moon",
+        "person2_planet": "Jupiter",
+        "aspect": "square",
+        "orb": 1.0782
+      },
+      {
+        "person1_planet": "Mercury",
+        "person2_planet": "Mercury",
+        "aspect": "square",
+        "orb": 5.6041
+      },
+      {
+        "person1_planet": "Mercury",
+        "person2_planet": "Pluto",
+        "aspect": "square",
+        "orb": 6.4486
+      },
+      {
+        "person1_planet": "Venus",
+        "person2_planet": "Mercury",
+        "aspect": "sextile",
+        "orb": 5.6899
+      },
+      {
+        "person1_planet": "Venus",
+        "person2_planet": "Jupiter",
+        "aspect": "conjunction",
+        "orb": 5.313
+      },
+      {
+        "person1_planet": "Venus",
+        "person2_planet": "Saturn",
+        "aspect": "trine",
+        "orb": 1.9592
+      },
+      {
+        "person1_planet": "Venus",
+        "person2_planet": "Uranus",
+        "aspect": "square",
+        "orb": 4.6176
+      },
+      {
+        "person1_planet": "Venus",
+        "person2_planet": "Neptune",
+        "aspect": "square",
+        "orb": 6.4069
+      },
+      {
+        "person1_planet": "Mars",
+        "person2_planet": "Jupiter",
+        "aspect": "square",
+        "orb": 4.4119
+      },
+      {
+        "person1_planet": "Jupiter",
+        "person2_planet": "Sun",
+        "aspect": "conjunction",
+        "orb": 3.2998
+      },
+      {
+        "person1_planet": "Jupiter",
+        "person2_planet": "Saturn",
+        "aspect": "square",
+        "orb": 4.3104
+      },
+      {
+        "person1_planet": "Saturn",
+        "person2_planet": "Sun",
+        "aspect": "trine",
+        "orb": 0.9392
+      },
+      {
+        "person1_planet": "Saturn",
+        "person2_planet": "Mercury",
+        "aspect": "square",
+        "orb": 5.6993
+      },
+      {
+        "person1_planet": "Saturn",
+        "person2_planet": "Uranus",
+        "aspect": "sextile",
+        "orb": 4.6082
+      },
+      {
+        "person1_planet": "Uranus",
+        "person2_planet": "Mars",
+        "aspect": "opposition",
+        "orb": 0.4233
+      },
+      {
+        "person1_planet": "Uranus",
+        "person2_planet": "Neptune",
+        "aspect": "conjunction",
+        "orb": 6.6416
+      },
+      {
+        "person1_planet": "Uranus",
+        "person2_planet": "Pluto",
+        "aspect": "sextile",
+        "orb": 0.7911
+      },
+      {
+        "person1_planet": "Neptune",
+        "person2_planet": "Mars",
+        "aspect": "opposition",
+        "orb": 2.5
+      },
+      {
+        "person1_planet": "Neptune",
+        "person2_planet": "Uranus",
+        "aspect": "conjunction",
+        "orb": 6.3541
+      },
+      {
+        "person1_planet": "Neptune",
+        "person2_planet": "Neptune",
+        "aspect": "conjunction",
+        "orb": 4.5648
+      },
+      {
+        "person1_planet": "Neptune",
+        "person2_planet": "Pluto",
+        "aspect": "sextile",
+        "orb": 1.2857
+      },
+      {
+        "person1_planet": "Pluto",
+        "person2_planet": "Moon",
+        "aspect": "square",
+        "orb": 4.6411
+      },
+      {
+        "person1_planet": "Pluto",
+        "person2_planet": "Mars",
+        "aspect": "trine",
+        "orb": 1.7039
+      },
+      {
+        "person1_planet": "Pluto",
+        "person2_planet": "Pluto",
+        "aspect": "conjunction",
+        "orb": 2.9183
+      }
+    ],
+    "scope": "10 major planets; a fragment, not the full compatibility report",
+    "modelGenerated": true,
+    "compatibilityReportData": {
+      "report_id": "synthetic-partner-demo",
+      "synastry_data": {
+        "cross_aspects": [
+          {
+            "person1_planet": "Sun",
+            "person2_planet": "Moon",
+            "aspect": "opposition",
+            "orb": 3.6218
+          },
+          {
+            "person1_planet": "Sun",
+            "person2_planet": "Venus",
+            "aspect": "trine",
+            "orb": 6.6818
+          },
+          {
+            "person1_planet": "Sun",
+            "person2_planet": "Pluto",
+            "aspect": "square",
+            "orb": 1.8991
+          },
+          {
+            "person1_planet": "Moon",
+            "person2_planet": "Sun",
+            "aspect": "sextile",
+            "orb": 5.1835
+          },
+          {
+            "person1_planet": "Moon",
+            "person2_planet": "Jupiter",
+            "aspect": "square",
+            "orb": 1.0782
+          },
+          {
+            "person1_planet": "Mercury",
+            "person2_planet": "Mercury",
+            "aspect": "square",
+            "orb": 5.6041
+          },
+          {
+            "person1_planet": "Mercury",
+            "person2_planet": "Pluto",
+            "aspect": "square",
+            "orb": 6.4486
+          },
+          {
+            "person1_planet": "Venus",
+            "person2_planet": "Mercury",
+            "aspect": "sextile",
+            "orb": 5.6899
+          },
+          {
+            "person1_planet": "Venus",
+            "person2_planet": "Jupiter",
+            "aspect": "conjunction",
+            "orb": 5.313
+          },
+          {
+            "person1_planet": "Venus",
+            "person2_planet": "Saturn",
+            "aspect": "trine",
+            "orb": 1.9592
+          },
+          {
+            "person1_planet": "Venus",
+            "person2_planet": "Uranus",
+            "aspect": "square",
+            "orb": 4.6176
+          },
+          {
+            "person1_planet": "Venus",
+            "person2_planet": "Neptune",
+            "aspect": "square",
+            "orb": 6.4069
+          },
+          {
+            "person1_planet": "Mars",
+            "person2_planet": "Jupiter",
+            "aspect": "square",
+            "orb": 4.4119
+          },
+          {
+            "person1_planet": "Jupiter",
+            "person2_planet": "Sun",
+            "aspect": "conjunction",
+            "orb": 3.2998
+          },
+          {
+            "person1_planet": "Jupiter",
+            "person2_planet": "Saturn",
+            "aspect": "square",
+            "orb": 4.3104
+          },
+          {
+            "person1_planet": "Saturn",
+            "person2_planet": "Sun",
+            "aspect": "trine",
+            "orb": 0.9392
+          },
+          {
+            "person1_planet": "Saturn",
+            "person2_planet": "Mercury",
+            "aspect": "square",
+            "orb": 5.6993
+          },
+          {
+            "person1_planet": "Saturn",
+            "person2_planet": "Uranus",
+            "aspect": "sextile",
+            "orb": 4.6082
+          },
+          {
+            "person1_planet": "Uranus",
+            "person2_planet": "Mars",
+            "aspect": "opposition",
+            "orb": 0.4233
+          },
+          {
+            "person1_planet": "Uranus",
+            "person2_planet": "Neptune",
+            "aspect": "conjunction",
+            "orb": 6.6416
+          },
+          {
+            "person1_planet": "Uranus",
+            "person2_planet": "Pluto",
+            "aspect": "sextile",
+            "orb": 0.7911
+          },
+          {
+            "person1_planet": "Neptune",
+            "person2_planet": "Mars",
+            "aspect": "opposition",
+            "orb": 2.5
+          },
+          {
+            "person1_planet": "Neptune",
+            "person2_planet": "Uranus",
+            "aspect": "conjunction",
+            "orb": 6.3541
+          },
+          {
+            "person1_planet": "Neptune",
+            "person2_planet": "Neptune",
+            "aspect": "conjunction",
+            "orb": 4.5648
+          },
+          {
+            "person1_planet": "Neptune",
+            "person2_planet": "Pluto",
+            "aspect": "sextile",
+            "orb": 1.2857
+          },
+          {
+            "person1_planet": "Pluto",
+            "person2_planet": "Moon",
+            "aspect": "square",
+            "orb": 4.6411
+          },
+          {
+            "person1_planet": "Pluto",
+            "person2_planet": "Mars",
+            "aspect": "trine",
+            "orb": 1.7039
+          },
+          {
+            "person1_planet": "Pluto",
+            "person2_planet": "Pluto",
+            "aspect": "conjunction",
+            "orb": 2.9183
+          }
+        ],
+        "house_overlays": [
+          {
+            "person1_planet": "Sun",
+            "falls_in_person2_house": 9,
+            "planet_owner": "person1",
+            "house_owner": "person2"
+          },
+          {
+            "person1_planet": "Moon",
+            "falls_in_person2_house": 2,
+            "planet_owner": "person1",
+            "house_owner": "person2"
+          },
+          {
+            "person1_planet": "Mercury",
+            "falls_in_person2_house": 9,
+            "planet_owner": "person1",
+            "house_owner": "person2"
+          },
+          {
+            "person1_planet": "Venus",
+            "falls_in_person2_house": 10,
+            "planet_owner": "person1",
+            "house_owner": "person2"
+          },
+          {
+            "person1_planet": "Mars",
+            "falls_in_person2_house": 8,
+            "planet_owner": "person1",
+            "house_owner": "person2"
+          },
+          {
+            "person1_planet": "Jupiter",
+            "falls_in_person2_house": 11,
+            "planet_owner": "person1",
+            "house_owner": "person2"
+          },
+          {
+            "person1_planet": "Saturn",
+            "falls_in_person2_house": 3,
+            "planet_owner": "person1",
+            "house_owner": "person2"
+          },
+          {
+            "person1_planet": "Uranus",
+            "falls_in_person2_house": 2,
+            "planet_owner": "person1",
+            "house_owner": "person2"
+          },
+          {
+            "person1_planet": "Neptune",
+            "falls_in_person2_house": 2,
+            "planet_owner": "person1",
+            "house_owner": "person2"
+          },
+          {
+            "person1_planet": "Pluto",
+            "falls_in_person2_house": 12,
+            "planet_owner": "person1",
+            "house_owner": "person2"
+          },
+          {
+            "person1_planet": "Sun",
+            "falls_in_person2_house": 12,
+            "planet_owner": "person2",
+            "house_owner": "person1"
+          },
+          {
+            "person1_planet": "Moon",
+            "falls_in_person2_house": 3,
+            "planet_owner": "person2",
+            "house_owner": "person1"
+          },
+          {
+            "person1_planet": "Mercury",
+            "falls_in_person2_house": 1,
+            "planet_owner": "person2",
+            "house_owner": "person1"
+          },
+          {
+            "person1_planet": "Venus",
+            "falls_in_person2_house": 2,
+            "planet_owner": "person2",
+            "house_owner": "person1"
+          },
+          {
+            "person1_planet": "Mars",
+            "falls_in_person2_house": 8,
+            "planet_owner": "person2",
+            "house_owner": "person1"
+          },
+          {
+            "person1_planet": "Jupiter",
+            "falls_in_person2_house": 10,
+            "planet_owner": "person2",
+            "house_owner": "person1"
+          },
+          {
+            "person1_planet": "Saturn",
+            "falls_in_person2_house": 3,
+            "planet_owner": "person2",
+            "house_owner": "person1"
+          },
+          {
+            "person1_planet": "Uranus",
+            "falls_in_person2_house": 2,
+            "planet_owner": "person2",
+            "house_owner": "person1"
+          },
+          {
+            "person1_planet": "Neptune",
+            "falls_in_person2_house": 2,
+            "planet_owner": "person2",
+            "house_owner": "person1"
+          },
+          {
+            "person1_planet": "Pluto",
+            "falls_in_person2_house": 1,
+            "planet_owner": "person2",
+            "house_owner": "person1"
+          }
+        ],
+        "precision": {
+          "mode": "exact",
+          "person1_birth_time": "exact",
+          "person2_birth_time": "exact",
+          "houses_included": true,
+          "house_overlays_included": true
+        }
+      },
+      "partner_name": "Партнёр",
+      "relationship_type": "romantic",
+      "overall_score": 61,
+      "breakdown": {
+        "emotional": 65,
+        "mental": 41,
+        "physical": 71,
+        "spiritual": 61
+      },
+      "user_chart_id": null
+    }
+  },
+  "modelSample": {
+    "label": "Начало ИИ-разбора пары из кабинета Astrollo",
+    "excerpt": "Перед нами динамичная, глубокая и трансформирующая синастрия с общим баллом совместимости 69%. Это показатель союза, в котором переплетаются яркая химия, мощные катализаторы личностного роста и тонкие эмоциональные нюансы. В этой паре нет места скуке или застою: показатели физического притяжения достигают впечатляющих 77%, тогда как ментальный уровень (69%), эмоциональный (65%) и духовный (65%) задают поле для постоянного развития и взаимной шлифовки характеров.\n\nВажная особенность взаимодействия с Артёмом — мощное присутствие трансформационных планет (Плутона, Урана, узлов судьбы и Лилит) в связке с личными планетами. Это говорит о том, что встреча не случайна: вы выступаете друг для друга зеркалами скрытых сторон личности. Связь сочетает в себе тепло классических гармоничных аспектов светил с вызовом оппозиций и квадратур, требующих мудрости, терпения и готовности бережно исследовать внутренний мир партнёра.",
+    "fullText": "## Что вас связывает\n\nПеред нами динамичная, глубокая и трансформирующая синастрия с общим баллом совместимости 69%. Это показатель союза, в котором переплетаются яркая химия, мощные катализаторы личностного роста и тонкие эмоциональные нюансы. В этой паре нет места скуке или застою: показатели физического притяжения достигают впечатляющих 77%, тогда как ментальный уровень (69%), эмоциональный (65%) и духовный (65%) задают поле для постоянного развития и взаимной шлифовки характеров.\n\nВажная особенность взаимодействия с Артёмом — мощное присутствие трансформационных планет (Плутона, Урана, узлов судьбы и Лилит) в связке с личными планетами. Это говорит о том, что встреча не случайна: вы выступаете друг для друга зеркалами скрытых сторон личности. Связь сочетает в себе тепло классических гармоничных аспектов светил с вызовом оппозиций и квадратур, требующих мудрости, терпения и готовности бережно исследовать внутренний мир партнёра.\n\n## Эмоциональная связь (65%)\n\nЭмоциональная сфера ваших отношений наполнена контрастами: здесь есть и естественное родство душ, и уроки принятия различий. Поддерживающим фундаментом выступает гармоничный аспект — Луна первого партнёра в секстиле к Солнцу Артёма. Этот контакт дарит ощущение психологического комфорта, глубинного понимания жизненных ритмов и базовой безопасности: вам легко почувствовать настроение партнёра без лишних слов.\n\nОднако эмоциональный диалог углубляется через оппозицию Солнца и Луны, а также напряжённые связи Плутона с Луной (квадрат с орбисом 4.64°) и осью Лунных Узлов. Оппозиция Солнце–Луна подчёркивает классическую полярность: один из вас может выражать волевое, осознанное начало, а другой — интуитивную, восприимчивую природу. Иногда это воспринимается как необходимость искать компромисс между личными желаниями и внутренними потребностями союза.\n\nКвадрат Луны к Юпитеру и Плутону добавляет эмоциональной интенсивности: чувства могут вспыхивать ярко, а переживания — преувеличиваться. Здесь важно помнить о бережности: если возникает тревога или эмоциональный шторм, лучше дать чувствам осесть, не пытаясь немедленно решить всё на пике переживаний. Это пространство учит вас обоих психологической зрелости и доверию.\n\n## Физическое притяжение и страсть (77%)\n\nФизический резонанс — самая сильная и проявленная сторона вашего союза. Балл 77% указывает на магнетическое, осязаемое притяжение, которое трудно игнорировать. Ведущую роль здесь играют взаимные наложения планет на 8-й дом: Марс первого партнёра попадает в 8-й дом Артёма, а Марс Артёма — в 8-й дом партнёра. Это редкое взаимное положение создаёт невероятно мощную сексуальную энергетику, инстинктивную тягу и ощущение роковой страсти.\n\nВенера образует благородный трин к Сатурну (орбис 1.95°), что дарит отношениям устойчивость, преданность и желание строить прочный фундамент. Вместе с тем, динамику подогревают аспекты нестабильности и электричества: квадратура Венеры к Урану и Нептуну, а также оппозиция Марса к Урану (орбис 0.42°). Эти аспекты действуют как периодические вспышки адреналина: отношениям жизненно противопоказана рутина. Важно направлять этот бурлящий огонь в творчество, совместные поездки, спонтанные свидания и новый чувственный опыт, не позволяя импульсивности разрушать ощущение безопасности.\n\n## Интеллектуальный резонанс и коммуникация (69%)\n\nОбщение между вами — это увлекательный процесс, напоминающий интеллектуальный пинг-понг. За интеллектуальное притяжение отвечает секстиль Венеры к Меркурию, дающий возможность говорить красиво, с теплом, находя удовольствие в совместных беседах и эстетике диалога. Присутствие Меркурия в 9-м доме партнёра открывает интерес к совместному расширению кругозора: вам может быть искренне любопытно обсуждать книги, путешествия и философию жизни.\n\nВ то же время в карте проявлен квадрат Меркурия к Меркурию (орбис 5.60°), дополненный квадратурой Меркурия к Плутону. Это указывает на разные стили мышления и обработки информации: там, где один ориентируется на логику и факты, другой может считывать скрытый подтекст или стремиться докопаться до психологической сути вещей.\n\nВ моменты споров существует риск соскользнуть в интеллектуальное доминирование или попытки переубедить партнёра любой ценой. Точка роста в вашей коммуникации — воспринимать различие взглядов не как несогласие, а как возможность взглянуть на мир под совершенно иным углом, давая право голоса каждой точке зрения.\n\n## Духовная связь и совместная эволюция (65%)\n\nДуховный пласт вашей синастрии обладает ярко выраженным кармическим и эволюционным характером. На это прямо указывают многочисленные взаимодействия с Лунными Узлами, Хироном и осью Вертекса. В частности, Солнце в трине к Северному Узлу (орбис всего 0.76°) говорит о том, что встреча с Артёмом естественным образом подталкивает каждого к реализации истинного жизненного предназначения. Вы помогаете друг другу раскрывать внутренний потенциал.\n\nОсобого внимания заслуживает соединение Солнца с Хироном (орбис 1.69°): эта связь способна исцелять застарелые душевные раны, связанные с самооценкой и признанием личной ценности, если вы подходите друг к другу с открытым сердцем. В то же время Солнце Артёма в 12-м доме партнёра привносит в контакт ноту тонкой мистики, телепатии и глубокого сострадания.\n\nВы можете чувствовать незримую связь даже на расстоянии, интуитивно угадывая состояние близкого человека. Этот уровень требует уважения к личному пространству и уединению, позволяя любви проявляться тихо, без лишних слов.\n\n## Итог и потенциал пары\n\nВаш союз с Артёмом — это яркое, глубокое путешествие, где соединяются страстная физическая гармония и мощные стимулы для личностного взросления. Общий балл 69% отражает крепкий союз с отличным потенциалом, в котором ведущей силой выступает взаимный интерес и нежелание оставаться на поверхности чувств.\n\nГлавные опоры вашей пары — это физическое притяжение, взаимная преданность (трин Венера–Сатурн) и способность вдохновлять друг друга на развитие. Основными точками роста остаются бережное отношение к чужим эмоциям в моменты кризисов и отказ от борьбы за контроль в разговорах. Научившись слушать различия с любопытством, а не с тревогой, вы сможете превратить любые синастрические напряжения в источник колоссальной взаимной силы и доверия.",
+    "generatedAt": "2026-10-04T20:10:00Z",
+    "modelLabel": "ИИ-астролог Astrollo, тариф «Мастер»",
+    "scope": "paid",
+    "provenanceLabel": "Сохранённая расшифровка пары из кабинета Astrollo для двух карт: 17.08.1994 14:30 и 03.11.1992 09:20, Москва. Уровень связи 69 % и сферы — расчёт кабинета. В аккаунте расшифровка пары — по подписке."
+  }
+}

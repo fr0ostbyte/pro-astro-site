@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "topicId": "ai",
+  "title": "Ответ ИИ на вопрос о работе",
+  "subtitle": "Настоящий ответ ИИ Astrollo по карте рождения",
+  "sourceLabel": "Сохранённый ответ ИИ Astrollo",
+  "synthetic": true,
+  "inputsLabel": "17.08.1994 · 14:30, Москва",
+  "visual": null,
+  "facts": [
+    {
+      "label": "Контекст карты",
+      "value": "Солнце: Лев · 24°18′"
+    },
+    {
+      "label": "Вопрос",
+      "value": "Как мне увереннее отстаивать свои идеи на работе?"
+    }
+  ],
+  "editorial": null,
+  "accessNote": "5 вопросов в день бесплатно. Для ответа по карте потребуются аккаунт и данные рождения.",
+  "provenance": {
+    "asOf": "2026-10-03",
+    "inputs": [
+      {
+        "birthDate": "1994-08-17",
+        "birthTime": "14:30",
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "timezone": "Europe/Moscow",
+        "city": "Москва"
+      }
+    ],
+    "sources": {
+      "services/calculation-engine/app/services/astro_constants.py": "16dc020c66d454b22e9c54357719b8766f032592132b317b9c4fb0f277b205dd",
+      "services/calculation-engine/app/models/natal_chart.py": "dcb0e530cc434d40749292d6ba471d23df98ac4a67446bfa2dd197db5c22c2f3",
+      "services/calculation-engine/app/models/synastry.py": "ef526789e7193992982e7e3df28464523eee0388bbc71fd532f2ead511a4f014",
+      "services/calculation-engine/app/models/transits.py": "36af860862776fb3fd1b324067bdc3544d2df9f3aedafcacbe18c4872003790c",
+      "services/calculation-engine/app/services/swiss_ephem.py": "e1b28c584d3f1d1f3ec45dfb3b064cc022092921e6a5f9245e19a932bdc26d08",
+      "services/calculation-engine/app/services/synastry_service.py": "47b3464024366312a1edea105ef123dfb9a99a811373fe9c1117bf23f81ac74d",
+      "services/calculation-engine/app/services/transit_service.py": "260a0841dd7d0cff23058eaf6fc54f713485497de05a05d980550ec5eb8b51d5",
+      "services/professional-service/app/Services/ProfessionalAiClient.php": "77a56dcb77079a763e20c3cb50440dbedb654538e07816ba2a74c18b64ac6702",
+      "frontend/src/lib/matrix/classic.ts": "5667c81c477c18b537aac390ef23dde24988c405121f090f7f8c2180e38e4541",
+      "frontend/src/lib/matrix/classic-pair.ts": "3b1ef3dc9d3f8f0f5b57cf7bd5f95d2df9ae250d6c7080db9271d8dabf25b0ed",
+      "frontend/src/components/matrix-classic/geometry.ts": "c9267c442becaaa916d6746877b5ae29334fe0181173f15dffa12d0d1df38579",
+      "frontend/scripts/fixtures/matrix-classic-fixtures.json": "d4c314bc2568a1d56a8a6c58771218c2eb07342f55afac451fb96528b6b2a373",
+      "frontend/scripts/fixtures/matrix-classic-pair-fixtures.json": "2f947699c341e441acbf45cce2963e6c217746527615012e9ce21e091ef7fc2f",
+      "services/vedic-service/app/services/ayanamsha.py": "492a197bb6445563bf6eba11f1b37b5fd3787df70608ad6a30523ea99e18e6be",
+      "services/vedic-service/app/services/nakshatra.py": "7ee78c407f62b933d54fe904baf28749cc84c23672fbe93765341f8a69f93a0e",
+      "services/vedic-service/app/services/dasha.py": "7f96eab1570e8cb6d8bf920fe273448278fc94c10706056f9721478105f11d5b",
+      "services/vedic-service/app/services/birth_time.py": "908a55e22e1792393d457d0231e2a4c680e497f68810100a708fd60567d8d1bf",
+      "services/vedic-service/app/routers/natal_chart.py": "d8e7404fd723fc14ebe5d1b18b2fd7698a9be68f4055260b49b797a4b3fbcf24"
+    },
+    "ephemeris": {
+      "version": "2.10.03",
+      "mode": "SWIEPH",
+      "files": {
+        "sepl_18.se1": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66",
+        "semo_18.se1": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+      }
+    },
+    "externalCalls": true,
+    "modelGenerated": true,
+    "view": "Static fragment, not a screenshot of a personal account",
+    "modelProof": {
+      "source": "astrolloai.ru cabinet, /app/chat (Master tier, fictional profile)",
+      "capturedAt": "2026-10-05T11:00:00Z",
+      "generatedAtApproximate": true,
+      "contentHash": "0462618bd1305bdd2b22775814c25105ec9be57e98081dab2fc7cca388025a92",
+      "formatNote": "list items prefixed with \"- \"",
+      "previousState": "audit-data/_ops/partner_sites_local16_claude_20261004/ai-before-local17.json"
+    },
+    "modelSources": {
+      "scripts/partner-sites/product-demo/model-samples.py": "6aa35bd6f106ada08ab23b4732b0dc48440d45961b64b1294e60062bb4f8cda1",
+      "services/ai-service/app/services/config_manager.py": "9491511f70e8d5f4ce57a801590163460ded4fae47187e3294390deab454e301",
+      "scripts/partner-sites/product-demo/generate.py": "ad063b5db839b4439d150f067c8d26f7bbde755f24382f1692327c2e081ce2f2",
+      "services/calculation-engine/app/services/astro_constants.py": "16dc020c66d454b22e9c54357719b8766f032592132b317b9c4fb0f277b205dd",
+      "services/calculation-engine/app/models/natal_chart.py": "dcb0e530cc434d40749292d6ba471d23df98ac4a67446bfa2dd197db5c22c2f3",
+      "services/calculation-engine/app/services/swiss_ephem.py": "e1b28c584d3f1d1f3ec45dfb3b064cc022092921e6a5f9245e19a932bdc26d08",
+      "services/professional-service/app/Services/CareerAnalyzer.php": "3e3b4776d27e58117e020c305a11003da231f39a80dbec6c5c7f978ff03a0eaa",
+      "services/professional-service/app/Services/ProfessionalScoringEngine.php": "be822a51efe7a5cda6e934fd71c5ca02bd9ad2328cc533e64155a38a02402cd5",
+      "services/professional-service/app/Services/ProfessionalAiClient.php": "77a56dcb77079a763e20c3cb50440dbedb654538e07816ba2a74c18b64ac6702",
+      "services/professional-service/app/Services/ProfessionalFactChecker.php": "cf6e03429e63f35866fc17124d8aca8a2a1a8c5a86e89e005936814935c111e5",
+      "services/professional-service/config/professions.php": "fa06e1708fdd892df8bb2b4b030c04fadc513ee501555be59d1b633792a7df7c",
+      "scripts/partner-sites/product-demo/native-career.php": "8911cd63c9a3b88a047495b09c5af8c441f4bd1eb21dff46a93ae99854342709",
+      "services/ai-service/app/services/chart_geometry.py": "82ddabc61eaf4418466792f9a058bf5c86b52b617cb1cb1f26ceb6ade0a1785a",
+      "services/ai-service/app/services/chart_precision.py": "2c0d7bc059805e84d7a3cf45e5b54c01891a04575f1ec7ec22123ddacf680272",
+      "services/ai-service/app/services/memory_card.py": "0865eface0deca065f7f862c209e0031ed85950923bf2b69bb9d55ac7896d443",
+      "services/ai-service/app/services/conversation_summary_builder.py": "6b69bd762668b8517ed77ab21d81d1413dd150a1989bed92b4755d8467312301",
+      "services/ai-service/app/services/crisis_guard.py": "d6e0b8a5070faea42ec3ebe8258b09c12ee7316181aaf7bcd6e3dfa7a0110bc0",
+      "services/ai-service/app/clients/openrouter.py": "e8d5210075ead007d1027e06ac993b756d10053018d36d777e4826527700ef1a",
+      "services/ai-service/app/services/context_builder.py": "ecd70cc904cadb3df8cbb3d8ba8e8a9319f074622d4394db22815ecd09d1ba73",
+      "services/ai-service/app/services/astrologer_persona.py": "f699be6a65bac1dc9626b109977b43e357d5ecccbad1f8cdf065867bac42b3cc"
+    },
+    "modelScope": [
+      "Native fresh free sage chat message builder; empty memory/history, natal context only",
+      "Native career pure methods/scoring/professions/strict prompt builder",
+      "Native MC geometry uses actual planet longitudes/cusp and calculation-engine orb constants; personal aspects cross-checked against native Swiss angular method",
+      "Favorable-period workflow, relocation, extra bodies, persistence, quota, entitlement and paid checkout not executed"
+    ],
+    "configuredModelSource": "repository DEFAULT_CONFIG; live production/admin override not inspected"
+  },
+  "calculation": {
+    "natalContext": {
+      "Sun": {
+        "name": "Sun",
+        "sign": "Leo",
+        "degree": 24.297229873271334,
+        "house": 9,
+        "retrograde": false
+      },
+      "Moon": {
+        "name": "Moon",
+        "sign": "Capricorn",
+        "degree": 5.905876182709392,
+        "house": 2,
+        "retrograde": false
+      }
+    },
+    "modelGenerated": true
+  },
+  "modelSample": {
+    "label": "Ответ ИИ-астролога из кабинета Astrollo",
+    "excerpt": "Чтобы уверенно отстаивать свои идеи, тебе важно опираться на внутреннюю экспертность и факты, а не пытаться переубедить всех силой эмоций. В тебе заложен мощный потенциал яркого лидера и стратега, но глубоко внутри может жить страх показаться навязчивым или встретить жесткую критику. Из-за этого ты можешь либо слишком долго молчать, либо начинать защищаться еще до того, как на идею вообще кто-то напал.\n\nВот три практических шага, которые помогут тебе звучать весомо:",
+    "fullText": "Чтобы уверенно отстаивать свои идеи, тебе важно опираться на внутреннюю экспертность и факты, а не пытаться переубедить всех силой эмоций. В тебе заложен мощный потенциал яркого лидера и стратега, но глубоко внутри может жить страх показаться навязчивым или встретить жесткую критику. Из-за этого ты можешь либо слишком долго молчать, либо начинать защищаться еще до того, как на идею вообще кто-то напал.\n\nВот три практических шага, которые помогут тебе звучать весомо:\n\n- Опирайся на структуру и пользу для дела. У тебя отличный аналитический ум, способный видеть суть вещей. Когда презентуешь идею, говори не о том, почему она нравится лично тебе, а как она решит конкретную проблему команды или компании. Сухие цифры и логика — твой главный щит от любой критики.\n- Разделяй себя и свои идеи. Помни: если коллегам не подошло предложение, они не отвергают тебя лично. Спокойное отношение к чужим сомнениям сразу добавляет тебе авторитета. Вместо спора задай встречный вопрос: «Что именно в этом плане вызывает у вас сомнения?» — это переведет разговор из режима борьбы в конструктивный диалог.\n- Не жди идеального момента. Желание подготовиться на все 200% и выдать безупречный результат часто просто затягивает время и забирает силы. Начинай высказываться, когда идея готова даже на 80%.\n\nСейчас у тебя такой период, когда на работе могут ощущаться повышенные требования и проверка на прочность со стороны окружения, но одновременно с этим открывается отличный ресурс для укрепления своего авторитета.\n\nЧто чаще всего мешает высказаться прямо сейчас: страх критики или сомнения в том, что идея достаточно хороша?",
+    "generatedAt": "2026-10-04T20:07:00Z",
+    "modelLabel": "ИИ-астролог Astrollo, режим «Понятный»",
+    "scope": "basic",
+    "provenanceLabel": "Сохранённый ответ ИИ-астролога из кабинета Astrollo на вопрос по карте рождения 17.08.1994, 14:30, Москва. Бесплатно — 5 вопросов в день."
+  }
+}

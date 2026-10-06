@@ -1,0 +1,629 @@
+{
+  "version": 1,
+  "topicId": "career",
+  "title": "Пример карьерного разбора",
+  "subtitle": "Профиль и направления с баллами — из ответа ИИ",
+  "sourceLabel": "Сохранённый ответ ИИ Astrollo",
+  "synthetic": true,
+  "inputsLabel": "17.08.1994 · 14:30, Москва",
+  "visual": {
+    "src": "/assets/product-demo/career.svg",
+    "alt": "Данные для карьерного разбора",
+    "width": 640,
+    "height": 360
+  },
+  "facts": [
+    {
+      "label": "Середина неба · MC",
+      "value": "Дева · 9°06′"
+    },
+    {
+      "label": "Меркурий",
+      "value": "Лев · 28°51′"
+    },
+    {
+      "label": "Сатурн",
+      "value": "Рыбы · 10°09′"
+    }
+  ],
+  "editorial": null,
+  "accessNote": "Карьерный отчёт — по подписке «Искатель» или «Мастер».",
+  "provenance": {
+    "asOf": "2026-10-03",
+    "inputs": [
+      {
+        "birthDate": "1994-08-17",
+        "birthTime": "14:30",
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "timezone": "Europe/Moscow",
+        "city": "Москва"
+      }
+    ],
+    "sources": {
+      "services/calculation-engine/app/services/astro_constants.py": "16dc020c66d454b22e9c54357719b8766f032592132b317b9c4fb0f277b205dd",
+      "services/calculation-engine/app/models/natal_chart.py": "dcb0e530cc434d40749292d6ba471d23df98ac4a67446bfa2dd197db5c22c2f3",
+      "services/calculation-engine/app/models/synastry.py": "ef526789e7193992982e7e3df28464523eee0388bbc71fd532f2ead511a4f014",
+      "services/calculation-engine/app/models/transits.py": "36af860862776fb3fd1b324067bdc3544d2df9f3aedafcacbe18c4872003790c",
+      "services/calculation-engine/app/services/swiss_ephem.py": "e1b28c584d3f1d1f3ec45dfb3b064cc022092921e6a5f9245e19a932bdc26d08",
+      "services/calculation-engine/app/services/synastry_service.py": "47b3464024366312a1edea105ef123dfb9a99a811373fe9c1117bf23f81ac74d",
+      "services/calculation-engine/app/services/transit_service.py": "260a0841dd7d0cff23058eaf6fc54f713485497de05a05d980550ec5eb8b51d5",
+      "services/professional-service/app/Services/ProfessionalAiClient.php": "77a56dcb77079a763e20c3cb50440dbedb654538e07816ba2a74c18b64ac6702"
+    },
+    "ephemeris": {
+      "version": "2.10.03",
+      "mode": "SWIEPH",
+      "files": {
+        "sepl_18.se1": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66",
+        "semo_18.se1": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+      }
+    },
+    "externalCalls": true,
+    "modelGenerated": true,
+    "view": "Static fragment, not a screenshot of a personal account",
+    "modelProof": {
+      "source": "astrolloai.ru cabinet, /app/professional (Master tier, fictional profile, industry creative, level middle, question «Какая индустрия?», detailed)",
+      "capturedAt": "2026-10-05T10:00:00Z",
+      "generatedAtApproximate": true,
+      "formatNote": "section headings marked \"## \", practical steps prefixed with \"- \" (rendered as list in the cabinet); text otherwise verbatim",
+      "contentHashWithoutListMarkers": "28d5945f32e5fbf8333ebf6684f3213446d256c91e49e04b8904b6695b249070",
+      "contentHash": "4fab1247c7d347868adf4a170a28608ae116882abdae4d5d6c2a49c380f03354",
+      "previousGeneratedSample": "audit-data/_ops/partner_sites_local16_claude_20261004/career-modelSample-local16-generated.json"
+    },
+    "modelSources": {
+      "scripts/partner-sites/product-demo/model-samples.py": "6aa35bd6f106ada08ab23b4732b0dc48440d45961b64b1294e60062bb4f8cda1",
+      "services/ai-service/app/services/config_manager.py": "9491511f70e8d5f4ce57a801590163460ded4fae47187e3294390deab454e301",
+      "scripts/partner-sites/product-demo/generate.py": "ad063b5db839b4439d150f067c8d26f7bbde755f24382f1692327c2e081ce2f2",
+      "services/calculation-engine/app/services/astro_constants.py": "16dc020c66d454b22e9c54357719b8766f032592132b317b9c4fb0f277b205dd",
+      "services/calculation-engine/app/models/natal_chart.py": "dcb0e530cc434d40749292d6ba471d23df98ac4a67446bfa2dd197db5c22c2f3",
+      "services/calculation-engine/app/services/swiss_ephem.py": "e1b28c584d3f1d1f3ec45dfb3b064cc022092921e6a5f9245e19a932bdc26d08",
+      "services/professional-service/app/Services/CareerAnalyzer.php": "3e3b4776d27e58117e020c305a11003da231f39a80dbec6c5c7f978ff03a0eaa",
+      "services/professional-service/app/Services/ProfessionalScoringEngine.php": "be822a51efe7a5cda6e934fd71c5ca02bd9ad2328cc533e64155a38a02402cd5",
+      "services/professional-service/app/Services/ProfessionalAiClient.php": "77a56dcb77079a763e20c3cb50440dbedb654538e07816ba2a74c18b64ac6702",
+      "services/professional-service/app/Services/ProfessionalFactChecker.php": "cf6e03429e63f35866fc17124d8aca8a2a1a8c5a86e89e005936814935c111e5",
+      "services/professional-service/config/professions.php": "fa06e1708fdd892df8bb2b4b030c04fadc513ee501555be59d1b633792a7df7c",
+      "scripts/partner-sites/product-demo/native-career.php": "8911cd63c9a3b88a047495b09c5af8c441f4bd1eb21dff46a93ae99854342709",
+      "services/ai-service/app/services/chart_geometry.py": "82ddabc61eaf4418466792f9a058bf5c86b52b617cb1cb1f26ceb6ade0a1785a",
+      "services/ai-service/app/services/chart_precision.py": "2c0d7bc059805e84d7a3cf45e5b54c01891a04575f1ec7ec22123ddacf680272",
+      "services/ai-service/app/services/memory_card.py": "0865eface0deca065f7f862c209e0031ed85950923bf2b69bb9d55ac7896d443",
+      "services/ai-service/app/services/conversation_summary_builder.py": "6b69bd762668b8517ed77ab21d81d1413dd150a1989bed92b4755d8467312301",
+      "services/ai-service/app/services/crisis_guard.py": "d6e0b8a5070faea42ec3ebe8258b09c12ee7316181aaf7bcd6e3dfa7a0110bc0",
+      "services/ai-service/app/clients/openrouter.py": "e8d5210075ead007d1027e06ac993b756d10053018d36d777e4826527700ef1a",
+      "services/ai-service/app/services/context_builder.py": "ecd70cc904cadb3df8cbb3d8ba8e8a9319f074622d4394db22815ecd09d1ba73",
+      "services/ai-service/app/services/astrologer_persona.py": "f699be6a65bac1dc9626b109977b43e357d5ecccbad1f8cdf065867bac42b3cc"
+    },
+    "modelScope": [
+      "Native fresh free sage chat message builder; empty memory/history, natal context only",
+      "Native career pure methods/scoring/professions/strict prompt builder",
+      "Native MC geometry uses actual planet longitudes/cusp and calculation-engine orb constants; personal aspects cross-checked against native Swiss angular method",
+      "Favorable-period workflow, relocation, extra bodies, persistence, quota, entitlement and paid checkout not executed"
+    ],
+    "configuredModelSource": "repository DEFAULT_CONFIG; live production/admin override not inspected"
+  },
+  "calculation": {
+    "natal": {
+      "houses": [
+        {
+          "number": 1,
+          "sign": "Scorpio",
+          "degree": 16.75511551726879
+        },
+        {
+          "number": 2,
+          "sign": "Sagittarius",
+          "degree": 16.501855876361333
+        },
+        {
+          "number": 3,
+          "sign": "Capricorn",
+          "degree": 27.40431555381889
+        },
+        {
+          "number": 4,
+          "sign": "Pisces",
+          "degree": 9.102541040790925
+        },
+        {
+          "number": 5,
+          "sign": "Aries",
+          "degree": 9.604623134805934
+        },
+        {
+          "number": 6,
+          "sign": "Taurus",
+          "degree": 0.9168407762791162
+        },
+        {
+          "number": 7,
+          "sign": "Taurus",
+          "degree": 16.75511551726879
+        },
+        {
+          "number": 8,
+          "sign": "Gemini",
+          "degree": 16.501855876361333
+        },
+        {
+          "number": 9,
+          "sign": "Cancer",
+          "degree": 27.40431555381889
+        },
+        {
+          "number": 10,
+          "sign": "Virgo",
+          "degree": 9.102541040790925
+        },
+        {
+          "number": 11,
+          "sign": "Libra",
+          "degree": 9.604623134805962
+        },
+        {
+          "number": 12,
+          "sign": "Scorpio",
+          "degree": 0.9168407762791162
+        }
+      ],
+      "cusps": [
+        226.7551155172688,
+        256.50185587636133,
+        297.4043155538189,
+        339.1025410407909,
+        9.604623134805934,
+        30.916840776279116,
+        46.75511551726879,
+        76.50185587636133,
+        117.40431555381889,
+        159.10254104079092,
+        189.60462313480596,
+        210.91684077627912
+      ],
+      "planets": [
+        {
+          "name": "Sun",
+          "sign": "Leo",
+          "degree": 24.297229873271334,
+          "house": 9,
+          "retrograde": false
+        },
+        {
+          "name": "Moon",
+          "sign": "Capricorn",
+          "degree": 5.905876182709392,
+          "house": 2,
+          "retrograde": false
+        },
+        {
+          "name": "Mercury",
+          "sign": "Leo",
+          "degree": 28.846764496653407,
+          "house": 9,
+          "retrograde": false
+        },
+        {
+          "name": "Venus",
+          "sign": "Libra",
+          "degree": 10.140706484337812,
+          "house": 11,
+          "retrograde": false
+        },
+        {
+          "name": "Mars",
+          "sign": "Cancer",
+          "degree": 0.41577902060501515,
+          "house": 8,
+          "retrograde": false
+        },
+        {
+          "name": "Jupiter",
+          "sign": "Scorpio",
+          "degree": 7.789548110910175,
+          "house": 12,
+          "retrograde": false
+        },
+        {
+          "name": "Saturn",
+          "sign": "Pisces",
+          "degree": 10.150134740403473,
+          "house": 4,
+          "retrograde": true
+        },
+        {
+          "name": "Uranus",
+          "sign": "Capricorn",
+          "degree": 23.18920221714984,
+          "house": 2,
+          "retrograde": true
+        },
+        {
+          "name": "Neptune",
+          "sign": "Capricorn",
+          "degree": 21.112461739278388,
+          "house": 2,
+          "retrograde": true
+        },
+        {
+          "name": "Pluto",
+          "sign": "Scorpio",
+          "degree": 25.31645514550999,
+          "house": 1,
+          "retrograde": false
+        }
+      ],
+      "aspects": [
+        {
+          "planet1": "Sun",
+          "planet2": "Mercury",
+          "type": "conjunction",
+          "orb": 4.5495,
+          "is_applying": false
+        },
+        {
+          "planet1": "Sun",
+          "planet2": "Pluto",
+          "type": "square",
+          "orb": 1.0192,
+          "is_applying": true
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Mercury",
+          "type": "trine",
+          "orb": 7.0591,
+          "is_applying": false
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Venus",
+          "type": "square",
+          "orb": 4.2348,
+          "is_applying": false
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Mars",
+          "type": "opposition",
+          "orb": 5.4901,
+          "is_applying": true
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Jupiter",
+          "type": "sextile",
+          "orb": 1.8837,
+          "is_applying": false
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Saturn",
+          "type": "sextile",
+          "orb": 4.2443,
+          "is_applying": true
+        },
+        {
+          "planet1": "Mercury",
+          "planet2": "Mars",
+          "type": "sextile",
+          "orb": 1.569,
+          "is_applying": false
+        },
+        {
+          "planet1": "Mercury",
+          "planet2": "Pluto",
+          "type": "square",
+          "orb": 3.5303,
+          "is_applying": true
+        },
+        {
+          "planet1": "Mars",
+          "planet2": "Jupiter",
+          "type": "trine",
+          "orb": 7.3738,
+          "is_applying": true
+        },
+        {
+          "planet1": "Jupiter",
+          "planet2": "Saturn",
+          "type": "trine",
+          "orb": 2.3606,
+          "is_applying": true
+        },
+        {
+          "planet1": "Uranus",
+          "planet2": "Neptune",
+          "type": "conjunction",
+          "orb": 2.0767,
+          "is_applying": true
+        },
+        {
+          "planet1": "Uranus",
+          "planet2": "Pluto",
+          "type": "sextile",
+          "orb": 2.1273,
+          "is_applying": true
+        },
+        {
+          "planet1": "Neptune",
+          "planet2": "Pluto",
+          "type": "sextile",
+          "orb": 4.204,
+          "is_applying": true
+        }
+      ],
+      "julianDayUT": 2449581.9375,
+      "scope": "10 major planets and 12 houses; additional bodies and mathematical points are outside this preview",
+      "houseSystem": "Placidus"
+    },
+    "reportSections": [
+      "Карьерный профиль",
+      "Сильные стороны",
+      "Профессии и объяснения",
+      "Практические шаги"
+    ],
+    "reportGenerated": true,
+    "modelGenerated": true,
+    "reportScope": "Complete model response, not the production account/report workflow; transit periods excluded",
+    "nativeCareerContext": {
+      "mc_sign": "Virgo",
+      "mc_degree": 9.102541040790925,
+      "asc_sign": "Scorpio",
+      "asc_degree": 16.75511551726879,
+      "ic_sign": "Pisces",
+      "ic_degree": 9.102541040790925,
+      "first_house": {
+        "sign": "Scorpio",
+        "planets": [
+          "Pluto"
+        ],
+        "ruler": "Pluto"
+      },
+      "tenth_house": {
+        "sign": "Virgo",
+        "planets": [],
+        "ruler": "Mercury"
+      },
+      "sixth_house": {
+        "sign": "Taurus",
+        "planets": [],
+        "ruler": "Venus"
+      },
+      "second_house": {
+        "sign": "Sagittarius",
+        "planets": [
+          "Moon",
+          "Uranus",
+          "Neptune"
+        ],
+        "ruler": "Jupiter"
+      },
+      "personal_planets": [
+        {
+          "name": "Sun",
+          "sign": "Leo",
+          "degree": 24.297229873271334,
+          "house": 9,
+          "retrograde": false
+        },
+        {
+          "name": "Moon",
+          "sign": "Capricorn",
+          "degree": 5.905876182709392,
+          "house": 2,
+          "retrograde": false
+        },
+        {
+          "name": "Mercury",
+          "sign": "Leo",
+          "degree": 28.846764496653407,
+          "house": 9,
+          "retrograde": false
+        },
+        {
+          "name": "Venus",
+          "sign": "Libra",
+          "degree": 10.140706484337812,
+          "house": 11,
+          "retrograde": false
+        },
+        {
+          "name": "Mars",
+          "sign": "Cancer",
+          "degree": 0.41577902060501515,
+          "house": 8,
+          "retrograde": false
+        }
+      ],
+      "key_natal_aspects": [
+        {
+          "planet1": "Sun",
+          "planet2": "Pluto",
+          "aspect": "square",
+          "orb": 1.0192
+        },
+        {
+          "planet1": "Mercury",
+          "planet2": "Mars",
+          "aspect": "sextile",
+          "orb": 1.569
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Jupiter",
+          "aspect": "sextile",
+          "orb": 1.8837
+        },
+        {
+          "planet1": "Mercury",
+          "planet2": "Pluto",
+          "aspect": "square",
+          "orb": 3.5303
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Venus",
+          "aspect": "square",
+          "orb": 4.2348
+        },
+        {
+          "planet1": "Moon",
+          "planet2": "Saturn",
+          "aspect": "sextile",
+          "orb": 4.2443
+        },
+        {
+          "planet1": "Sun",
+          "planet2": "Mercury",
+          "aspect": "conjunction",
+          "orb": 4.5495
+        }
+      ],
+      "sensitive_points": [],
+      "mc_aspects": [
+        {
+          "planet": "Moon",
+          "aspect": "trine",
+          "orb": 3.1967
+        },
+        {
+          "planet": "Jupiter",
+          "aspect": "sextile",
+          "orb": 1.313
+        },
+        {
+          "planet": "Saturn",
+          "aspect": "opposition",
+          "orb": 1.0476
+        }
+      ],
+      "precalculated_metrics": {
+        "career_dimensions": {
+          "leadership": 40,
+          "communication": 45,
+          "analysis": 55,
+          "creativity": 80,
+          "endurance": 55
+        },
+        "top_professions": [
+          {
+            "name": "UX/UI Дизайнер",
+            "match_percent": 94,
+            "icon": "✨",
+            "reasoning": "Подходит благодаря вашей комбинации навыков."
+          },
+          {
+            "name": "Контент-мейкер / Видеограф",
+            "match_percent": 92,
+            "icon": "🎬",
+            "reasoning": "Подходит благодаря вашей комбинации навыков."
+          },
+          {
+            "name": "Разработчик (Frontend/Backend)",
+            "match_percent": 88,
+            "icon": "💻",
+            "reasoning": "Подходит благодаря вашей комбинации навыков."
+          },
+          {
+            "name": "Копирайтер / Редактор",
+            "match_percent": 87,
+            "icon": "✍️",
+            "reasoning": "Подходит благодаря вашей комбинации навыков."
+          },
+          {
+            "name": "Методист образовательных программ",
+            "match_percent": 87,
+            "icon": "📝",
+            "reasoning": "Подходит благодаря вашей комбинации навыков."
+          }
+        ]
+      }
+    },
+    "modelReport": {
+      "career_archetype": "Творец-Системщик",
+      "top_professions": [
+        {
+          "name": "UX/UI Дизайнер",
+          "match_percent": 94,
+          "icon": "✨",
+          "reasoning": "Управитель MC Меркурий в соединении с Солнцем дает точность восприятия, а Венера в 11 доме отвечает за эстетику современных интерфейсов."
+        },
+        {
+          "name": "Контент-мейкер / Видеограф",
+          "match_percent": 92,
+          "icon": "🎬",
+          "reasoning": "Солнце в 9 доме в знаке Льва стремится к яркому самовыражению и созданию смысловых визуальных продуктов."
+        },
+        {
+          "name": "Разработчик (Frontend/Backend)",
+          "match_percent": 88,
+          "icon": "💻",
+          "reasoning": "Дева на MC требует структурности и внимания к деталям, что идеально реализуется в логике программирования."
+        },
+        {
+          "name": "Копирайтер / Редактор",
+          "match_percent": 87,
+          "icon": "✍️",
+          "reasoning": "Связь Солнца и Меркурия в 9 доме подчеркивает талант к работе с текстами, обучению и трансляции экспертных идей."
+        },
+        {
+          "name": "Методист образовательных программ",
+          "match_percent": 87,
+          "icon": "📝",
+          "reasoning": "Меркурий как управитель 10 дома в 9 доме знаний указывает на успех в систематизации информации и создании учебных стратегий."
+        }
+      ],
+      "career_dimensions": {
+        "leadership": 40,
+        "communication": 45,
+        "analysis": 55,
+        "creativity": 80,
+        "endurance": 55
+      },
+      "strengths": [
+        {
+          "text": "Творческая индивидуальность",
+          "planet": "Sun",
+          "aspect": "Соединение с Меркурием"
+        },
+        {
+          "text": "Интуитивная прозорливость",
+          "planet": "Moon",
+          "aspect": "Трин к МС"
+        },
+        {
+          "text": "Масштабное видение",
+          "planet": "Jupiter",
+          "aspect": "Секстиль к МС"
+        },
+        {
+          "text": "Энергия в действии",
+          "planet": "Mercury",
+          "aspect": "Секстиль к Марсу"
+        }
+      ],
+      "challenges": [
+        {
+          "text": "Внутреннее сопротивление",
+          "planet": "Saturn",
+          "aspect": "Оппозиция к МС",
+          "advice": "Не позволяйте страху перед критикой блокировать ваш рост; используйте дисциплину как инструмент, а не как тюрьму."
+        },
+        {
+          "text": "Кризис самовыражения",
+          "planet": "Sun",
+          "aspect": "Квадрат к Плутону",
+          "advice": "Направляйте мощную внутреннюю энергию в трансформацию проектов, избегая излишнего самоедства и борьбы за власть."
+        }
+      ],
+      "interpretation": "## Ваш карьерный профиль\n\nВаша натальная карта представляет собой уникальный сплав глубокой интуиции и стремления к безупречному порядку. С **Асцендентом в Скорпионе** вы производите впечатление человека проницательного, обладающего скрытой силой и магнетизмом. Это «маска» исследователя, который не боится идти вглубь процессов. Однако ваше истинное призвание, точка **MC в Деве**, указывает на путь мастерства, детализации и служения через интеллектуальный труд. Ваша карьера — это процесс огранки хаоса в четкую, работающую систему.\n\nЯдро вашей личности — **Солнце в Льве в 9 доме** — жаждет признания через экспертность и расширение горизонтов. Вы не просто исполнитель; вы идеолог, чье влияние должно распространяться далеко за пределы привычного окружения. **Меркурий в соединении с Солнцем** делает ваше мышление ярким и убедительным. Вы умеете облекать сложные концепции в форму, понятную окружающим, что подтверждается высоким показателем креативности (80%).\n\n## Психология успеха и мотивация\n\nВаш драйв тесно связан с **Марсом в Раке в 8 доме**. Это положение говорит о том, что ваша энергия включается на полную мощность в ситуациях кризиса или глубокой эмоциональной вовлеченности. Вы эффективно действуете там, где нужно защищать чьи-то интересы или управлять общими ресурсами. При этом **Меркурий в секстиле к Марсу** позволяет вам быстро переводить импульсы в конкретные действия и четкие коммуникации.\n\n**Луна в Козероге во 2 доме** задает эмоциональную потребность в материальной стабильности и осязаемых результатах. Вы чувствуете себя в безопасности, когда у вас есть четкий план и растущие накопления. Важно, что **Луна образует трин к MC**, — это редкий аспект, указывающий на то, что ваши инстинкты и профессиональные цели находятся в гармонии. Вы буквально «чувствуете» правильные карьерные возможности.\n\n## Преодоление препятствий\n\nГлавный карьерный вызов связан с **Сатурном в оппозиции к MC**. Это может проявляться как внешние ограничения, давление со стороны авторитетов или внутренний «синдром самозванца». Вы можете чувствовать, что успех дается вам ценой огромных усилий. Однако **Луна в секстиле к Сатурну** дает вам эмоциональную выносливость и умение терпеть ради большой цели. Ваша задача — превратить Сатурн из критика в мудрого внутреннего наставника.\n\nНапряжение между **Солнцем и Плутоном** (квадрат) создает мощный внутренний атомный реактор. Это дает колоссальную работоспособность, но также может приводить к эмоциональному выгоранию. Учитесь вовремя делегировать задачи и не пытайтесь контролировать каждый микрон рабочего процесса.\n\n## Финансовая стратегия\n\nВаш **2-й дом в Стрельце** под управлением **Юпитера** намекает на то, что финансы приходят через расширение компетенций, преподавание или международное сотрудничество. Наличие во 2-м доме **Урана и Нептуна** вносит элемент нестабильности, но также и возможность заработка на инновациях и творчестве. **Юпитер в секстиле к MC** — это «аспект удачи», который помогает вам оказываться в нужном месте в нужное время, если вы сохраняете оптимизм и открытость новому опыту.\n\n## Практические шаги к реализации\n\n1. **Фокус на визуализации смыслов**. Учитывая ваш высокий творческий потенциал и связь Меркурия с Солнцем, выбирайте роли, где нужно создавать визуальный или текстовый контент, несущий глубокую идею (UX-дизайн, видеография).\n2. **Системное обучение**. Ваше **MC в Деве** требует постоянного повышения квалификации. Станьте лучшим специалистом в узкой нише — детализация и дотошность станут вашим главным конкурентным преимуществом.\n3. **Управление энергией**. Поскольку ваш **Марс** находится в эмоциональном знаке, ваша продуктивность зависит от настроения. Обустройте рабочее место так, чтобы оно было психологически комфортным и безопасным.\n4. **Работа с авторитетами**. Примите тот факт, что на пути будут встречаться строгие руководители (**Сатурн против MC**). Воспринимайте их не как врагов, а как тренажеры для укрепления вашего профессионального стержня.\n5. **Масштабирование через 11 дом**. Ваша **Венера в Весах в 11 доме** указывает на то, что успех придет через социальные связи, сообщества и партнерство. Не работайте в одиночку — ищите единомышленников и создавайте эстетичные коллаборации."
+    }
+  },
+  "modelSample": {
+    "label": "Начало карьерного разбора из кабинета Astrollo",
+    "excerpt": "Ваша натальная карта представляет собой мощный сплав огненной выразительности и земной точности. Точка карьеры (МС) в знаке Девы под управлением Меркурия указывает на призвание создавать функциональный, продуманный до мелочей и полезный людям продукт. В то же время ваше Солнце во Льве в 9-м доме в тесной связке с Меркурием дает масштабность замысла, желание звучать громко, формировать тренды и вдохновлять.\n\nВосходящий Скорпион в соединении с Плутоном и Северным узлом наделяет вас проницательностью и магнетизмом: вы чувствуете скрытые мотивы аудитории, видите то, что остается за кадром, и способны вкладывать в креативные проекты колоссальную эмоциональную силу. В креативной индустрии это делает вас незаменимым специалистом, способным соединить визионерство с безупречным исполнением.",
+    "fullText": "## Ваш карьерный профиль\n\nВаша натальная карта представляет собой мощный сплав огненной выразительности и земной точности. Точка карьеры (МС) в знаке Девы под управлением Меркурия указывает на призвание создавать функциональный, продуманный до мелочей и полезный людям продукт. В то же время ваше Солнце во Льве в 9-м доме в тесной связке с Меркурием дает масштабность замысла, желание звучать громко, формировать тренды и вдохновлять.\n\nВосходящий Скорпион в соединении с Плутоном и Северным узлом наделяет вас проницательностью и магнетизмом: вы чувствуете скрытые мотивы аудитории, видите то, что остается за кадром, и способны вкладывать в креативные проекты колоссальную эмоциональную силу. В креативной индустрии это делает вас незаменимым специалистом, способным соединить визионерство с безупречным исполнением.\n\n## Переход от специалиста к лидерству\n\nНа текущем этапе углубления экспертизы ваша главная точка роста — переход от исполнительского мастерства к концептуальному руководству. Точное соединение Хирона с МС может вызывать синдром самозванца: кажется, что навыков все еще недостаточно для уверенного лидерства. Однако именно через проживание этой уязвимости вы обретаете дар наставника, способного бережно развивать таланты в команде.\n\nСильная Венера в Весах в 11-м доме открывает великолепные возможности для коллабораций, работы с сообществами и построения партнерских отношений. Лидерство для вас — это не авторитарное давление, а кураторство, где вы выступаете эстетическим арбитром и стратегом, направляющим коллективное творчество к единому видению.\n\n## Финансовая стратегия и ресурсы\n\nМатериальная сфера опирается на Луну в Козероге во 2-м доме, которая ценит надежность, стабильность и долгосрочные активы. Гармоничный секстиль Луны к Юпитеру и Сатурну гарантирует, что системное укрепление авторитета ведет к поступательному росту доходов.\n\nИзбегайте импульсивных трат и недооценки собственного труда: ваше мастерство детализации и глубинного анализа стоит дорого. Финансовый успех напрямую связан с вашей репутацией эксперта, умеющего доводить сложные проекты до безукоризненного финала.\n\n## Практические шаги для развития\n\n- Формируйте авторскую методологию: переводите ваш интуитивный визуальный опыт в структурированные дизайн-системы, гайдлайны и редполитики. Знак Девы на МС расцветает, когда хаос творчества упакован в четкий алгоритм.\n- Учитесь отпускать контроль: напряженный аспект между Солнцем и Плутоном подталкивает переделывать все самостоятельно. Передавайте базовые задачи младшим специалистам, оставляя за собой финальный контроль смыслов и визуальной стратегии.\n- Укрепляйте публичное позиционирование: проявляйте энергию Солнца в 9-м доме через экспертные публикации, разборы кейсов и выступления на профильных конференциях креативной сферы.\n- Развивайте гибкие навыки фасилитации: используйте ресурс Венеры в 11-м доме, чтобы объединять дизайнеров, авторов и разработчиков в слаженные рабочие группы без токсичной конкуренции.\n\nАстрология — инструмент самопознания. Финальный выбор всегда за тобой.",
+    "generatedAt": "2026-10-05T10:00:00Z",
+    "modelLabel": "ИИ-астролог Astrollo, тариф «Мастер»",
+    "scope": "paid",
+    "provenanceLabel": "Сохранённый карьерный ИИ-разбор из кабинета Astrollo для данных 17.08.1994, 14:30, Москва (креативная индустрия, уровень Middle). В аккаунте карьерный разбор — по подписке."
+  }
+}
